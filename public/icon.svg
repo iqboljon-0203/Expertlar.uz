@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#1A1A1A" />
+  <rect width="96" height="96" x="2" y="2" rx="18" fill="transparent" stroke="rgba(227, 30, 36, 0.4)" stroke-width="4" />
+  <text x="50" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="50" font-weight="900" fill="#E31E24" text-anchor="middle" dominant-baseline="middle">EX</text>
+</svg>
