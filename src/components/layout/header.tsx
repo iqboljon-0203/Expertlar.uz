@@ -66,20 +66,23 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group shrink-0" id="logo-link">
-            <div className="flex items-end gap-[2px]">
-              <div className="flex items-end gap-[2px] relative">
-                <div className="w-[6px] h-[14px] bg-primary rounded-[1px] transition-transform group-hover:scale-y-110" />
-                <div className="w-[6px] h-[20px] bg-primary rounded-[1px] transition-transform group-hover:scale-y-110" />
-                <div className="w-[6px] h-[26px] bg-primary rounded-[1px] transition-transform group-hover:scale-y-110" />
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="absolute -top-2 -right-2">
-                  <path d="M2 14L14 2M14 2H6M14 2V10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary" />
-                </svg>
-              </div>
+          <Link href="/" className="flex items-center gap-[6px] group shrink-0" id="logo-link">
+            {/* Logo Mark: 3 Bars & Arrow */}
+            <div className="relative flex shrink-0 items-center justify-center text-[#E31E24]">
+              <svg width="44" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-transform duration-300 group-hover:scale-105">
+                {/* 3 Red Bars */}
+                <rect x="14" y="66" width="16" height="34" fill="currentColor" />
+                <rect x="42" y="52" width="16" height="48" fill="currentColor" />
+                <rect x="70" y="38" width="16" height="62" fill="currentColor" />
+                {/* Thick Integrated Arrow */}
+                <path d="M 12 40 L 16 54 L 70 27 L 78 38 L 96 4 L 54 5 L 60 16 Z" fill="currentColor" strokeLinejoin="miter" />
+              </svg>
             </div>
-            <div className="flex flex-col leading-none">
-              <span className="text-lg font-bold tracking-tight text-foreground lg:text-xl">EXPERTLAR</span>
-              <span className="text-[10px] font-medium tracking-widest text-muted-foreground italic lg:text-xs">Professional services</span>
+            
+            {/* Text Mark */}
+            <div className="flex flex-col justify-center leading-none mt-1">
+              <span className="text-[22px] font-black tracking-wide text-[#2B2B36] dark:text-white uppercase leading-none pb-1">EXPERTLAR</span>
+              <span className="text-[11px] font-bold italic text-[#2B2B36] dark:text-gray-300 leading-none">Professional services</span>
             </div>
           </Link>
 
